@@ -1,0 +1,35 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.1",
+    "axios": "^0.18.0",
+    "buffer": "^5.2.1",
+    "crypto-js": "^3.1.9-1",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-app-intro-slider": "^1.0.1",
+    "react-native-base64": "0.0.2",
+    "react-native-drawer-layout": "^2.0.0",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-sha256": "^1.2.3",
+    "react-native-slider": "^0.11.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-navigation": "^3.0.9",
+    "react-navigation-transitions": "^1.0.6",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "uuidv4": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}

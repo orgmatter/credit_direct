@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Credit Direct",
+    "slug": "nimble-x",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash_new.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/ios_icon.png",
+      "supportsTablet": false,
+      "bundleIdentifier": "com.geeks14.nimblex"
+    },
+    "android": {
+      "icon": "./assets/android_icon.png",
+      "package": "com.evilcorp.nimblex"
+    },
+    "description": "This apk just demonstrate the application flow from the  pointy of requesting a loan, verifying bvn to the personal information form page."
+  }
+}
